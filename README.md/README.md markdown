@@ -1,0 +1,378 @@
+# 📊 E-Commerce Sales Performance Dashboard | Power BI
+
+> An interactive Power BI dashboard to analyze e-commerce sales, profit, products, platforms, countries, and monthly performance.
+
+## 📌 Project Overview
+
+This project is an **E-Commerce Sales Performance Dashboard** created using **Power BI**.
+
+The dashboard converts raw e-commerce sales data into simple and useful business insights.
+
+It helps users understand:
+
+- 💰 Sales and Profit
+- 📈 Profit Margin
+- 🛍️ Product Category Performance
+- 🌐 Platform Performance
+- 🌍 Country-wise Sales
+- 🏆 Top Products
+- 📅 Monthly Sales & Profit Trends
+
+The main goal of this project is to make business performance **easy to understand through interactive data visualization**.
+
+## 🎯 Business Problem
+
+E-commerce businesses generate a large amount of sales data from different platforms and countries.
+
+It can be difficult to quickly understand:
+
+- Which products generate the most revenue?
+- Which platform performs better?
+- Which countries generate more sales?
+- Which categories contribute most to revenue?
+- How are sales and profit changing every month?
+
+This dashboard provides a **single interactive view** to answer these questions.
+
+# 📂 Dataset
+
+The project uses an e-commerce transactional dataset containing **1,000 orders**.
+
+### Dataset Includes
+
+- Order information
+- Product information
+- Customer information
+- Sales platforms
+- Countries
+- Product categories
+- Quantity
+- Price
+- Cost
+- Discount
+- Payment method
+- Shipping mode
+- Order status
+- Customer rating
+
+### 🛒 Sales Platforms
+
+- Amazon
+- Shopify
+- eBay
+
+### 🌍 Countries
+
+The dataset contains customers from multiple countries including:
+
+- Japan
+- France
+- India
+- Canada
+- USA
+- UK
+- Singapore
+- Australia
+- Germany
+- UAE
+
+### 📦 Product Categories
+
+- Electronics
+- Home & Kitchen
+- Sports
+- Fashion
+- Beauty
+- Books
+
+
+# 🧹 Data Cleaning & Preparation
+
+The data was prepared before creating the dashboard.
+
+### Main activities:
+
+- ✅ Checked missing values
+- ✅ Checked duplicate records
+- ✅ Corrected data types
+- ✅ Cleaned text values
+- ✅ Standardized country names
+- ✅ Checked date fields
+- ✅ Validated numerical columns
+- ✅ Prepared data for Power BI
+
+**Power Query** was mainly used for data transformation and preparation.
+
+# 🧮 DAX Measures
+Some important measures used in the dashboard include:
+# 📊 Key KPIs
+
+| KPI              |    Value |
+| ---------------- | -------: |
+| 💰 Total Sales   |   $1.79M |
+| 💵 Gross Profit  | $588.35K |
+| 📈 Profit Margin |   32.84% |
+| 📦 Units Sold    |    6,490 |
+| 🛒 Total Orders  |    1,000 |
+
+# 📈 Dashboard Features
+
+## 1️⃣ KPI Cards
+
+The dashboard displays:
+
+* 💰 Total Sales
+* 💵 Gross Profit
+* 📈 Profit Margin
+* 📦 Units Sold
+* 🛒 Total Orders
+
+These KPI cards provide a quick overview of overall business performance.
+
+## 2️⃣ 🌍 Global Sales Map
+
+The map shows sales performance across different countries.
+
+This helps identify important markets and understand geographical sales distribution.
+
+
+## 3️⃣ 🏷️ Sales by Category
+
+A donut chart shows the contribution of each product category.
+
+### Key Finding
+
+**Electronics** is the largest category, contributing approximately:
+
+**58.43% of total sales ($1.05M)**
+
+## 4️⃣ 🛍️ Platform Performance
+
+The dashboard compares:
+
+* Shopify
+* eBay
+* Amazon
+
+The analysis includes both **Sales and Gross Profit**.
+
+### Key Finding
+
+Shopify generated approximately:
+
+* **$627K Sales**
+* **$205K Gross Profit**
+
+---
+
+## 5️⃣ 🏆 Top 10 Products
+
+The dashboard identifies the products generating the highest revenue.
+
+### Top Products
+
+| Product       | Revenue |
+| ------------- | ------: |
+| 🎧 Headphones |   $254K |
+| 💻 Laptop     |   $235K |
+| 📱 Smartphone |   $201K |
+| 📱 Tablet     |   $184K |
+| ⌚ Smartwatch  |   $172K |
+
+---
+
+## 6️⃣ 📅 Monthly Sales & Profit
+
+A monthly trend chart shows how sales and profit change throughout the year.
+
+This helps identify:
+
+* 📈 High-performing months
+* 📉 Low-performing months
+* 💰 Revenue trends
+* 💵 Profit trends
+
+
+## 7️⃣ 🌍 Country Performance
+
+The dashboard provides country-level information such as:
+
+* Total Orders
+* Sales
+* Gross Profit
+
+### Example
+
+Japan generated approximately:
+
+* **$222.58K Revenue**
+* **$72.97K Gross Profit**
+
+# 💡 Key Insights
+
+### 🔹 1. Strong Overall Sales
+
+The business generated approximately **$1.79M in total sales** from **1,000 orders**.
+
+### 🔹 2. Electronics is a Major Category
+
+Electronics contributes approximately **58.43% of total sales**.
+
+### 🔹 3. Platform Performance
+
+The dashboard compares Amazon, Shopify, and eBay to understand their contribution to sales and profit.
+
+### 🔹 4. Top Products
+
+Products such as **Headphones, Laptop, Smartphone, Tablet, and Smartwatch** are major revenue contributors.
+
+### 🔹 5. Global Market
+
+The dashboard provides a clear view of sales performance across different countries.
+
+### 🔹 6. Monthly Performance
+
+Monthly sales and profit trends help understand changes in business performance over time.
+
+
+# 🖥️ Dashboard Preview
+
+![E-Commerce Sales Dashboard](images/dashboard-preview.png)
+
+# 📁 Project Structure
+
+```text
+ecommerce-sales-dashboard-powerbi/
+│
+├── README.md
+│
+├── data/
+│   └── Ecommerce_Sales_Datset.xlsx
+│
+├── dashboard/
+│   └── E-Commerce_Sales_Dashboard.pbix
+│
+└── images/
+    └── dashboard-preview.png
+```
+
+### 📂 Folder Description
+
+**data/**
+Contains the Excel dataset.
+
+**dashboard/**
+Contains the Power BI `.pbix` file.
+
+**images/**
+Contains dashboard screenshots.
+
+**README.md**
+Contains project documentation.
+
+# 🚀 How to Use This Project
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/ecommerce-sales-dashboard-powerbi.git
+```
+
+### Step 2: Open the Project
+
+Open the downloaded project folder.
+
+### Step 3: Open Power BI
+
+Open:
+
+```text
+dashboard/E-Commerce_Sales_Dashboard.pbix
+```
+
+### Step 4: Refresh Data
+
+Make sure the Excel dataset is available in the `data` folder.
+
+Then open Power BI and click:
+
+**Home → Refresh**
+
+
+# 🎓 What I Learned
+
+Through this project, I improved my skills in:
+
+* 📊 Power BI
+* 🔄 Power Query
+* 🧮 DAX
+* 🧹 Data Cleaning
+* 🔗 Data Modeling
+* 📈 Data Visualization
+* 💡 Business Analysis
+* 📋 KPI Creation
+* 🌍 E-Commerce Analytics
+* 🐍 Python Data Analysis
+* 🌐 Git & GitHub
+
+Most importantly, I learned how to convert **raw data into meaningful business insights**.
+
+
+# 🚀 Future Improvements
+
+Some possible improvements for the project are:
+
+* 📈 Sales forecasting
+* 👥 Customer segmentation
+* 💰 Customer Lifetime Value analysis
+* 🔄 Return-rate analysis
+* 🎯 Discount impact analysis
+* 📦 Inventory analysis
+* 📅 Year-over-Year analysis
+* 📊 Month-over-Month growth
+* 🤖 Python-based predictive analysis
+* 🔄 Automated data refresh
+
+---
+
+# 💼 Skills Demonstrated
+
+This project demonstrates practical knowledge of:
+
+**Power BI | Power Query | DAX | Excel | Python | Data Cleaning | Data Modeling | Data Visualization | Business Analysis | Git | GitHub**
+
+# 👩‍💻 Author
+
+### Ambika Patil
+
+🎯 **Aspiring Data Analyst**
+
+📊 Interested in **Data Analytics, Power BI, Python, SQL, and Business Intelligence**
+
+
+
+# 🔗 Connect With Me
+
+💼 **LinkedIn:**
+www.linkedin.com/in/ambikapatil2524.
+
+
+
+🐙 **GitHub:**
+patilambika.
+
+# ⭐ Project Summary
+
+This project demonstrates how raw e-commerce data can be transformed into an **interactive Power BI dashboard**.
+
+The dashboard provides a clear view of:
+
+**Sales → Profit → Products → Platforms → Countries → Monthly Trends**
+
+It is designed as a practical **Data Analyst portfolio project** to demonstrate skills in data cleaning, transformation, DAX, visualization, and business analysis.
+
+
+⭐ If you find this project useful, feel free to explore the repository!
+
+
+
